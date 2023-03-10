@@ -9,9 +9,6 @@ public class For {
     }
 
     public static boolean getNum(int i) {
-        if (i % 4 == 0)
-            return true;
-        else
-            return false;
+        return i % 4 == 0;
     }
 }
